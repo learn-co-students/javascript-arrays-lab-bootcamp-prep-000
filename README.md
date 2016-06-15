@@ -5,7 +5,7 @@ JavaScript Arrays Lab
 
 1. Practice writing arrays
 2. Practice manipulating arrays
-3. Explain how to
+3. Explain how to manipulate arrays in a non-desctructive way
 
 ## Introduction
 
