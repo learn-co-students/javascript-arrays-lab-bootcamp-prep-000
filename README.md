@@ -5,7 +5,7 @@ JavaScript Arrays Lab
 
 1. Practice writing arrays
 2. Practice manipulating arrays
-3. Explain how to manipulate arrays in a non-desctructive way
+3. Explain how to manipulate arrays in a non-destructive way
 
 ## Introduction
 
@@ -52,3 +52,5 @@ Normally, resetting the array and the array itself would be _decoupled_ — that
 ## Resources
 
 - [npm](https://npmjs.org)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-arrays-lab'>Javascript Arrays Lab</a> on Learn.co and start learning to code for free.</p>
