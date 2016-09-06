@@ -1,5 +1,4 @@
 const app = "I don't do much."
-const kittens = []
 
 function destructivelyAppendKitten(name) {
   kittens.push(name);
@@ -22,21 +21,17 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  var tempArray = kittens;
-  return [...tempArray, name];
+  return [...kittens, name];
 }
 
 function prependKitten(name) {
-  var tempArray = kittens;
-  return [name, ...tempArray];
+  return [name, ...kittens];
 }
 
 function removeLastKitten() {
-  var tempArray = kittens.slice(0, kittens.length - 1);
-  return tempArray;
+  return kittens.slice(0, kittens.length - 1);
 }
 
 function removeFirstKitten() {
-  var tempArray = kittens.slice(1);
-  return tempArray;
+  return kittens.slice(1);
 }
