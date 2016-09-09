@@ -4,3 +4,14 @@ function kittens () {
   var kittens = ["Milo", "Otis", "Garfield"]
   return kittens
 }
+var kittens = ["Milo", "Otis", "Garfield"]
+  function destructivelyAppendKitten(element) {
+  kittens.push(element)
+return kittens
+}
+
+var kittens = ["Milo", "Otis", "Garfield"]
+function destructivelyPrependKitten(element) {
+  kittens.unshift(element)
+  return kittens
+}
