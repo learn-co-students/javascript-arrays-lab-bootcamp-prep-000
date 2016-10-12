@@ -30,15 +30,10 @@ return newKittens
 
 var removeLastKitten = function(){
 var newKittens = kittens // leaves kittens unchanged
-newKittens = newKittens.splice(0, newKittens.length - 1) // start at 0 till 2nd to last
-kittens = ["Milo", "Otis", "Garfield"]
-return newKittens
+return newKittens.slice(0, newKittens.length - 1) // start at 0 till 2nd to last
 }
 
 var removeFirstKitten = function(){
-var newKittens = new Array()
-newKittens = kittens // leaves kittens unchanged
-newKittens = newKittens.splice(1) //start at 1 till the end, avoiding 0
-//kittens = ["Milo", "Otis", "Garfield"]
-return newKittens
+//var newKittens = kittens // leaves kittens unchanged
+return kittens.slice(1) //start at 1 till the end, avoiding 0
 }
