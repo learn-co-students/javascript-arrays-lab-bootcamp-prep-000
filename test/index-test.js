@@ -15,11 +15,6 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
     })
   })
-  function destructivelyAppendKitten(name) {
-    var kittens = ["Milo","Otis","Garfield"];
-    kittens.push("Ralph");
-    return kittens;
-  }
 
   describe('destructivelyPrependKitten(name)', function() {
     it('prepends a kitten to the beginning of the kittens array', function() {
