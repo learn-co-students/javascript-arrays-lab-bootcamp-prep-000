@@ -1,0 +1,166 @@
+
+> java-script-arrays-lab@0.1.0 test /home/gportela-41622/code/labs/javascript-arrays-lab-bootcamp-prep-000
+> mocha -R mocha-multi --reporter-options nyan=-,json=.results.json
+
+ 0
+ 0
+ 0
+
+[4A[5C-
+[5C-
+[5C-
+[5C-
+[4A[6C_,------,
+[6C_|   /\_/\ 
+[6C^|__( - .-) 
+[6C  ""  "" 
+[4A 1
+ 0
+ 0
+
+[4A[5C-_
+[5C-_
+[5C-_
+[5C-_
+[4A[7C_,------,
+[7C_|  /\_/\ 
+[7C~|_( ^ .^) 
+[7C ""  "" 
+[4A 1
+ 1
+ 0
+
+[4A[5C-_-
+[5C-_-
+[5C-_-
+[5C-_-
+[4A[8C_,------,
+[8C_|   /\_/\ 
+[8C^|__( x .x) 
+[8C  ""  "" 
+[4A 1
+ 2
+ 0
+
+[4A[5C-_-_
+[5C-_-_
+[5C-_-_
+[5C-_-_
+[4A[9C_,------,
+[9C_|  /\_/\ 
+[9C~|_( x .x) 
+[9C ""  "" 
+[4A 1
+ 3
+ 0
+
+[4A[5C-_-_-
+[5C-_-_-
+[5C-_-_-
+[5C-_-_-
+[4A[10C_,------,
+[10C_|   /\_/\ 
+[10C^|__( x .x) 
+[10C  ""  "" 
+[4A 1
+ 4
+ 0
+
+[4A[5C-_-_-_
+[5C-_-_-_
+[5C-_-_-_
+[5C-_-_-_
+[4A[11C_,------,
+[11C_|  /\_/\ 
+[11C~|_( x .x) 
+[11C ""  "" 
+[4A 1
+ 5
+ 0
+
+[4A[5C-_-_-_-
+[5C-_-_-_-
+[5C-_-_-_-
+[5C-_-_-_-
+[4A[12C_,------,
+[12C_|   /\_/\ 
+[12C^|__( x .x) 
+[12C  ""  "" 
+[4A 1
+ 6
+ 0
+
+[4A[5C-_-_-_-_
+[5C-_-_-_-_
+[5C-_-_-_-_
+[5C-_-_-_-_
+[4A[13C_,------,
+[13C_|  /\_/\ 
+[13C~|_( x .x) 
+[13C ""  "" 
+[4A 1
+ 7
+ 0
+
+[4A[5C-_-_-_-_-
+[5C-_-_-_-_-
+[5C-_-_-_-_-
+[5C-_-_-_-_-
+[4A[14C_,------,
+[14C_|   /\_/\ 
+[14C^|__( x .x) 
+[14C  ""  "" 
+[4A 1
+ 8
+ 0
+
+[4A[5C-_-_-_-_-_
+[5C-_-_-_-_-_
+[5C-_-_-_-_-_
+[5C-_-_-_-_-_
+[4A[15C_,------,
+[15C_|  /\_/\ 
+[15C~|_( x .x) 
+[15C ""  "" 
+[4A
+
+
+
+
+  1 passing (2s)
+  8 failing
+
+  1) Arrays destructivelyAppendKitten(name) appends a kitten to the end of the kittens array:
+     ReferenceError: destructivelyAppendKitten is not defined
+      at Context.<anonymous> (test/index-test.js:14:7)
+
+  2) Arrays destructivelyPrependKitten(name) prepends a kitten to the beginning of the kittens array:
+     ReferenceError: destructivelyPrependKitten is not defined
+      at Context.<anonymous> (test/index-test.js:21:7)
+
+  3) Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array:
+     ReferenceError: destructivelyRemoveLastKitten is not defined
+      at Context.<anonymous> (test/index-test.js:29:7)
+
+  4) Arrays destructivelyRemoveFirstKitten() removes the First kitten from the kittens array:
+     ReferenceError: destructivelyRemoveFirstKitten is not defined
+      at Context.<anonymous> (test/index-test.js:37:7)
+
+  5) Arrays appendKitten(name) appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged:
+     ReferenceError: appendKitten is not defined
+      at Context.<anonymous> (test/index-test.js:45:14)
+
+  6) Arrays prependKitten(name) prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged:
+     ReferenceError: prependKitten is not defined
+      at Context.<anonymous> (test/index-test.js:53:14)
+
+  7) Arrays removeLastKitten() removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged:
+     ReferenceError: removeLastKitten is not defined
+      at Context.<anonymous> (test/index-test.js:61:14)
+
+  8) Arrays removeFirstKitten() removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged:
+     ReferenceError: removeFirstKitten is not defined
+      at Context.<anonymous> (test/index-test.js:69:14)
+
+
+
