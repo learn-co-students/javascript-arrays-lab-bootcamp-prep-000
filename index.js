@@ -1,8 +1,4 @@
-// Run learn test
-// Vocalise errors
-// Write code
-// Repeat
-// Submit
+// Learn.co Bootcamp Prep 10 JavaScript Array Lab
 const app = "I don't do much."
 
 // Define kittens function.
