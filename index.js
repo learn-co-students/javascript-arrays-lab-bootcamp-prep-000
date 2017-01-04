@@ -1,6 +1,5 @@
 // const app = "I don't do much."; 
 var kittens = ["Milo", "Otis", "Garfield"];
-// name = "";
 function destructivelyAppendKitten(name) { 
   kittens.push(name);
   return kittens;
@@ -21,22 +20,25 @@ function destructivelyRemoveFirstKitten() {
   return kittens;  
 } // Function removes the First kitten from the kittens array(shift Bob) No argument.
 destructivelyRemoveFirstKitten();  
-function appendKitten(name) {
-  myarray = [...kittens, `name`];
-  var mynewarray = myarray;
-  return mynewarray;
+function appendKitten(name) { // var name = ""; is not needed to initialize.
+  var myarray = [...kittens, name]; // took me some time to figure out, var was needed for the new array.
+  return myarray;
 } // appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
-appendKitten("Broom"); /*
+appendKitten("Broom"); 
 function prependKitten(name) {
-  
+  var myarray = [ name, ...kittens]; // took me some time to figure out, var was needed for the new array.
+  return myarray;  
 } // prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
-prependKitten("addkit");
-removeLastKitten(kitwhat) {
-  
+prependKitten("Arnold");
+function removeLastKitten() {
+  var myarray = [...kittens]; // so this adds all kittens array elements starting at element0? Yes it works.
+  myarray.pop();
+  return myarray;  
 } // removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
-removeLastKitten("kitwhat");
-removeFirstKitten(kitwhat) {
-  
+removeLastKitten();
+removeFirstKitten() {
+  var myarray = [...kittens]; // so this adds all kittens array elements starting at element0? Yes it works.
+  myarray.shift();
+  return myarray; 
 } // removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged
-removeFirstKitten("kitwhat");
-*/
+removeFirstKitten();
