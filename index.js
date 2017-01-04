@@ -1,8 +1,11 @@
-const app = "I don't do much."; /*
-destructivelyAppendKitten(name) {
-
+const app = "I don't do much."; 
+var kittens = ["Milo", "Otis", "Garfield"]
+var name = "";
+destructivelyAppendKitten(name) { 
+  kittens.push(`name`);
+  return kittens;
 } // appends a kitten to the end of the kittens array
-destructivelyAppendKitten("kittenName1");
+destructivelyAppendKitten("endKittenName"); /*
 
 destructivelyPrependKitten(name) {
   
