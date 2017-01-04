@@ -36,7 +36,7 @@ function removeLastKitten() {
   return myarray;  
 } // removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
 removeLastKitten();
-removeFirstKitten() {
+function removeFirstKitten() {
   var myarray = [...kittens]; // so this adds all kittens array elements starting at element0? Yes it works.
   myarray.shift();
   return myarray; 
