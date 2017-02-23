@@ -44,13 +44,13 @@ function prependKitten(name){
 // where the slice starts, and the second argument specifies where it ends.
 // If there is no second argument, the slice goes from the first argument
 // (the start) to the end of the array.
-// If there is no second argument, the slice goes from the first argument
-// (the start) to the end of the array.
-// Ex: Removing the first element is: slice(1).
 function removeLastKitten(name){
   return kittens.slice(0, kittens.length - 1)
 }
 
+// If there is no second argument, the slice goes from the first argument
+// (the start) to the end of the array.
+// Ex: Removing the first element is: slice(1).
 function removeFirstKitten(name){
   return kittens.slice(1)
 }
