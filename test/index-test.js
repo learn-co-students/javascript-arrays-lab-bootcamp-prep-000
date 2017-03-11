@@ -73,3 +73,57 @@ describe('Arrays', function() {
   })
 
 })
+
+const app = "I don't do much."
+kittens=['Milo', 'Otis', 'Garfield'];
+
+function destructivelyAppendKitten(name)
+{
+  return window.kittens.push(name);
+}
+
+function destructivelyPrependKitten(name)
+{
+  return window.kittens.unshift(name);
+}
+
+function destructivelyRemoveLastKitten()
+{
+  return window.kittens.pop()
+}
+
+function destructivelyRemoveFirstKitten()
+{
+  return window.kittens.shift()
+}
+
+function appendKitten(name)
+{
+  var newKittens=kittens;
+  newKittens.push(name)
+  return newKittens;
+}
+
+function prependKitten(name)
+{
+  var newKittens=kittens;
+  newKittens.unshift(name)
+  newKittens.pop()
+  return newKittens;
+}
+
+function removeLastKitten()
+{
+  var Kittens=kittens
+  Kittens.shift()
+  Kittens.pop()
+  return Kittens;
+}
+
+function removeFirstKitten()
+{
+  var Kittens=kittens
+  Kittens.shift()
+  Kittens.push('Garfield');
+  return Kittens;
+}
