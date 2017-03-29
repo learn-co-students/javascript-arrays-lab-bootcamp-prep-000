@@ -27,3 +27,5 @@ function removeFirstKitten(name){
   var newArray4=kittens.slice(1)
   return newArray4
 }
+
+//hello ya'll
