@@ -2,39 +2,39 @@ const app = "I don't do much."
 
 kittens = ["Milo", "Otis", "Garfield"]
 
-function destructivelyAddKitten(element) {
-	kittens.push(element)
-	return kittens
+function destructivelyAddKitten(array, name) {
+	array.push(name)
+	return array
 }
 
-function destructivelyPrependKitten(element) {
-	kittens.unshift(element)
-	return kittens
+function destructivelyPrependKitten(array,name) {
+	array.unshift(name)
+	return array
 }
 
-function destructivelyRemoveLastKitten(element) {
-	kittens.pop()
-	return kittens
+function destructivelyRemoveLastKitten(array, name) {
+	array.pop()
+	return array
 }
 
-function destructivelyRemoveFirstKitten(element) {
-	kittens.shift()
-	return kittens
+function destructivelyRemoveFirstKitten(array, name) {
+	array.shift()
+	return array
 }
 
-function appendKitten (element) {
-	return [...kittens, element]
+function appendKitten (array, name) {
+	return [...array, name]
 }
-function prependKitten (element) {
-	return [element, ...kittens]
+function prependKitten (array, name) {
+	return [name ...array]
 }
-function removeLastKitten (element) {
-	var newArray = kittens
+function removeLastKitten (array, name) {
+	var newArray = array
 	newArray.pop()
 	return newArray
 }
-function removeFirstKitten (element) {
-	var newArray = kittens
+function removeFirstKitten (array, name) {
+	var newArray = array
 	newArray.shift()
 	return newArray
 }
