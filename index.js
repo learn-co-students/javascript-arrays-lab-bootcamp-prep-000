@@ -26,7 +26,7 @@ function appendKitten (array, name) {
 	return [...array, name]
 }
 function prependKitten (array, name) {
-	return [name ...array]
+	return [name, ...array]
 }
 function removeLastKitten (array, name) {
 	var newArray = array
