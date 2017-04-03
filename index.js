@@ -22,21 +22,21 @@ kittens.shift(name)
 
 function appendKitten(name){
 kittens = ['Milo', 'Otis', 'Garfield']
-var kittens2 = kittens
+var kittens2 = [...kittens]
 kittens2.push(name)
 return kittens2
 }
 
 function prependKitten(name){
 kittens = ["Milo", "Otis", "Garfield"]
-var kittens2 = kittens
+var kittens2 = [...kittens]
 kittens2.unshift(name)
 return kittens2
 }
 
 function removeLastKitten(){
 kittens = ["Milo", "Otis", "Garfield"]
-var kittens2 = kittens
+var kittens2 = [...kittens]
 kittens2.pop()
 return kittens2
 }
