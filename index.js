@@ -21,6 +21,18 @@ function destructivelyRemoveFirstKitten(newKitty) {
 }
 
 function appendKitten(newKitty) {
-[...kittens, newKitty]
-  return kittens;
+  return [...kittens, newKitty]
+  //THIS ONE DID NOT CLICK WITH ME!
+}
+
+function prependKitten(newKitty) {
+  return [newKitty, ...kittens]
+}
+
+function removeLastKitten() {
+  return kittens.slice(0, kittens.length - 1)
+}
+
+function removeFirstKitten() {
+  return kittens.slice(1)
 }
