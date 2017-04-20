@@ -24,12 +24,12 @@ function appendKitten(name){
 };
 
 function prependKitten(name){
-  var prependedList = ["Arnald", ...kittens];
+  var prependedList = ["Arnold", ...kittens];
   return prependedList;
 };
 
 function removeLastKitten(){
-  var removedLast = kittens.slice(-1);
+  var removedLast = kittens.slice(0, kittens.length -1);
   return removedLast;
 };
 
