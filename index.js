@@ -11,33 +11,76 @@ function kittens() {
 }
 
 function destructivelyAppendKitten(name) {
-  //TODO: write code
+  kittens.push(name);
+  return kittens;
 }
 
 function destructivelyPrependKitten(name) {
-  //TODO: write code
+  kittens.unshift(name);
+  return kittens;
 }
 
 function destructivelyRemoveLastKitten() {
-  //TODO: write code
+  kittens.pop();
+  return kittens;
 }
 
 function destructivelyRemoveFirstKitten() {
-  //TODO: write code
+  kittens.shift();
+  return kittens;
 }
 
 function appendKitten(name) {
-  //TODO: write code
+  kittens = [...kittens, name];
+  return kittens;
 }
+/* appends a kitten to the kittens array and return
+s a new array, leaving the kittens array unchanged:
 
+      Error: Expected [ 'Milo', 'Otis', 'Garfield', 'Broom' ] to equal [ 'Milo'
+, 'Otis', 'Garfield' ]
+      + expected - actual
+
+       [
+         "Milo"
+         "Otis"
+         "Garfield"
+      -  "Broom"
+    ]                   */
 function prependKitten(name) {
-  //TODO: write code
+  return kittens = [name,...kittens];
 }
+/* prepends a kitten to the kittens array and retu
+rns a new array, leaving the kittens array unchanged:
+
+      Error: Expected [ 'Arnold', 'Milo', 'Otis', 'Garfield' ] to equal [ 'Milo
+', 'Otis', 'Garfield' ]
+      + expected - actual
+
+       [
+      -  "Arnold"
+         "Milo"
+         "Otis"
+         "Garfield"
+       ]                        */
 
 function removeLastKitten() {
-  //TODO: write code
+  return kittens.slice(0, kittens.length - 1);
 }
 
 function removeFirstKitten() {
-  //TODO: write code
+  kittens = kittens.slice(1);
+  return kittens;
 }
+/* removes the first kitten from the kittens array
+ and returns a new array, leaving the kittens array unchanged:
+
+      Error: Expected [ 'Otis', 'Garfield' ] to equal [ 'Milo', 'Otis', 'Garfie
+ld' ]
+      + expected - actual
+
+       [
+      +  "Milo"
+         "Otis"
+         "Garfield"
+       ]     */
