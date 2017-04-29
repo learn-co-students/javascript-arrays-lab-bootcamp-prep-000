@@ -25,8 +25,8 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  kittens = [...kittens, name];
-  return kittens;
+  moreKittens = [...kittens, name];
+  return moreKittens;
 }
 /* appends a kitten to the kittens array and return
 s a new array, leaving the kittens array unchanged:
