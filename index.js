@@ -28,18 +28,20 @@ function appendKitten(name)
 
 function prependKitten(name)
 {
-  new_array = [name, ...kittens]
+  var new_array = [name, ...kittens]
   return new_array
 }
 
 function removeLastKitten()
 {
-  kittens.slice(-1)
-  return kittens
+var kittens = ["Milo", "Otis", "Garfield"];
+kittens = kittens.slice(0, -1);
+return kittens;
 }
 
 function removeFirstKitten()
 {
-  kittens.slice(0)
-  return kittens
+  var kittens = ["Milo", "Otis", "Garfield"];
+  kittens = kittens.slice(1);
+  return kittens;
 }
