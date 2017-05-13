@@ -21,7 +21,15 @@ We want to distinguish between actions that _mutate_ ("change") their underlying
 
 In general, it's good practice to avoid mutating a program's state whenever possible. So we want to call out these methods as destructive, since mutating state means we don't always know what we're dealing with. Indeed, these mutations mean that we need to refresh the test environment after every test to make sure that we're not working with mutated data!
 
-By contrast, we also have methods like `appendKitten()`, which simply adds a kitten to the end of the `kittens` array and returns the _new_ array, leaving the existing array untouched. This flow is preferable to mutating state because we have complete control over what's going into and coming out of the function.
+By contrast, we also have functions like `appendKitten()`, which simply adds a kitten to the end of the `kittens` array and returns the _new_ array, leaving the existing array untouched. This flow is preferable to mutating state because we have complete control over what's going into and coming out of the function.
+
+Try to use methods like `slice()`, `concat()`, or `splice()` to return a new array when keep the original array intact. 
+
+* [concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=control)
+
+* [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice?v=control)
+
+* [splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice?v=control)
 
 Think of it this way: you're making a peanut butter and jelly sandwich. Would you rather work with a sandwich where someone had put an unspecified amount of peanut butter or jelly on the bread before you start making it (or, worse, where someone had taken a bite out of the bread), or would you rather start fresh?
 
@@ -52,5 +60,7 @@ Normally, resetting the array and the array itself would be _decoupled_ — that
 ## Resources
 
 - [npm](https://npmjs.org)
+- 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-arrays-lab'>Javascript Arrays Lab</a> on Learn.co and start learning to code for free.</p>
+
