@@ -1,12 +1,10 @@
 const app = "I don't do much."
-
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
   kittens.push(name)
   return kittens
 }
-
 function destructivelyPrependKitten(name){
   kittens.unshift(name)
   return kittens
@@ -16,13 +14,13 @@ function destructivelyRemoveLastKitten(){
   return kittens
 }
 function destructivelyRemoveFirstKitten(){
-  kittens.shift(name)
+  kittens.shift()
   return kittens
 }
 function appendKitten(name){
-  var newKittens = [... kittens]
-  newKittens.push(name)
-  return newKittens
+var newKittens = [...kittens]
+newKittens.push(name)
+return newKittens
 }
 function prependKitten(name){
   var newKittens = [...kittens]
@@ -35,7 +33,7 @@ function removeLastKitten(){
   return newKittens
 }
 function removeFirstKitten(){
-var newKittens = [...kittens]
-newKittens.shift(name)
-return newKittens
+  var newKittens = [...kittens]
+  newKittens.shift(name)
+  return newKittens
 }
