@@ -4,12 +4,12 @@ var kittens = ['Milo', 'Otis', 'Garfield']
 
 //appends a kitten to the end of the kittens array
 function destructivelyAppendKitten(name){
-  kittens.push('Ralph')
+  kittens.push(name)
 }
 
 //prepends a kitten to the beginning of the kittens array
 function destructivelyPrependKitten(name){
-  kittens.unshift('Bob')
+  kittens.unshift(name)
 }
 
 //removes the last kitten from the kittens array
@@ -24,12 +24,12 @@ function destructivelyRemoveFirstKitten(){
 
 ////appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
 function appendKitten(name){
-  return [...kittens,'Broom']
+  return [...kittens,name]
 }
 
 //appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
 function prependKitten(name){
-  return ['Arnold',...kittens]
+  return [name,...kittens]
 }
 
 //removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
