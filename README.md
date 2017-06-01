@@ -1,7 +1,7 @@
 JavaScript Arrays Lab
 ---
 
-## Objectives
+## Objectives!
 
 1. Practice writing arrays
 2. Practice manipulating arrays
