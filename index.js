@@ -27,8 +27,8 @@ function appendKitten(name) {
 }
 
 function removeLastKitten() {
-  var newKittens = [...kittens]
-  newKittens.pop()
+  var newKittens = []
+  newKittens.push(kittens).pop()
   return newKittens
 }
 
