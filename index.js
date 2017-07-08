@@ -17,15 +17,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  const newKittens = [...kittens];
-  newKittens.push(name);
-  return newKittens;
+  return [...kittens, name];
 }
 
 function prependKitten(name) {
-  const newKittens = [...kittens];
-  newKittens.unshift(name);
-  return newKittens;
+  return [name, ...kittens];
 }
 
 function removeLastKitten() {
