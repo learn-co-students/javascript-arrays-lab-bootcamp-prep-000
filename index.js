@@ -12,7 +12,7 @@ function destructivelyPrependKitten(name){
 /*
 destructivelyRemoveLastKitten(){
   kittens.pop();
-  return kittens
+  return kittens;
 }
 */
 
@@ -30,12 +30,14 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  kittens.slice(0, kittens.length -1);
-  return kittens;
+  kittens.slice(0, kittens.length -1)
+  kittens = kittens.slice(0, kittens.length-1);
+  return kittens
 }
-
+/*
 function removeFirstKitten(){
-  kittens.slice(1);
-  kittens = kittens.slice(1);
-  return kittens;
+  kittens.slice();
+  kittens = kittens.slice();
+  return kittens
 }
+*/
