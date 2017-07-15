@@ -8,7 +8,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
@@ -16,7 +16,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
 
   describe('destructivelyPrependKitten(name)', function() {
@@ -27,7 +27,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('destructivelyRemoveLastKitten()', function() {
     //window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -37,7 +37,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('destructivelyRemoveFirstKitten()', function() {
     //window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -47,7 +47,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Otis", "Garfield"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('appendKitten(name)', function() {
     //window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -57,7 +57,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('prependKitten(name)', function() {
     //window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -67,7 +67,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('removeLastKitten()', function() {
     //window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -77,7 +77,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('removeFirstKitten()', function() {
     //window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -87,6 +87,6 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-  window.kittens = ['Milo', 'Otis', 'Garfield'];
+  //window.kittens = ['Milo', 'Otis', 'Garfield'];
 
 })
