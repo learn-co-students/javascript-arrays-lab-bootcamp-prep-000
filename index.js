@@ -88,7 +88,7 @@ function removeLastKitten(){
 function removeFirstKitten(){
   console.log(`Before good first removal: [${kittens}]`)
   var moreKittens = kittens.slice(1)
-  console.log(`After good first removal: [${kittens}]`)
+  console.log(`After good first removal: [${moreKittens}]`)
   console.log()
   return moreKittens
 
