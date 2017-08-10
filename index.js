@@ -47,7 +47,14 @@ prependKitten("Arnold")
 
 var kittens = ['Milo', 'Otis', 'Garfield']
 function removeLastKitten() {
-  var Beep = kittens.splice(-1)
+  var Beep = kittens.slice(0, kittens.length -1)
   return Beep
 }
 removeLastKitten()
+
+var kittens = ['Milo', 'Otis', 'Garfield']
+function removeFirstKitten() {
+  var Beep = kittens.slice(1)
+  return Beep
+}
+removeFirstKitten()
