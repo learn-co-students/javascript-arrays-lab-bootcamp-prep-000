@@ -6,46 +6,46 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
   return kittens;
 };
-destructivelyAppendKitten("Ralph");
+// destructivelyAppendKitten("Ralph");
 
 function destructivelyPrependKitten(name) {
   kittens.unshift(name);
   return kittens;
 }
-destructivelyPrependKitten("Bob");
+// destructivelyPrependKitten("Bob");
 
 function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 }
-destructivelyRemoveLastKitten();
+// destructivelyRemoveLastKitten();
 
 function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 }
-destructivelyRemoveFirstKitten();
+// destructivelyRemoveFirstKitten();
 
 function appendKitten(name) {
-  newArray = [...kittens, name];
-  return newArray;
+  appendKitten = [...kittens, name];
+  return appendKitten;
 }
-appendKitten("Broom");
+// appendKitten("Broom");
 
 function prependKitten(name) {
-  newArray = [name, ...kittens];
-  return newArray;
+  prependKitten = [name, ...kittens];
+  return prependKitten;
 }
-prependKitten("Arnold");
+// prependKitten("Arnold");
 
 function removeLastKitten() {
-  newArray = kittens.slice(-2);
-  return newArray;
+  removeLastKitten = kittens.slice(0,2);
+  return removeLastKitten;
 }
-removeLastKitten();
+// removeLastKitten();
 
 function removeFirstKitten() {
-  newArray = kittens.slice(1);
-  return newArray;
+  removeFirstKitten = kittens.slice(1);
+  return removeFirstKitten;
 }
-removeFirstKitten();
+// removeFirstKitten();
