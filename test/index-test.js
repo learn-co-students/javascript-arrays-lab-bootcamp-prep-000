@@ -1,3 +1,4 @@
+var index = require("../index.js")
 describe('Arrays', function() {
   beforeEach(function() {
     window.kittens = ['Milo', 'Otis', 'Garfield'];
