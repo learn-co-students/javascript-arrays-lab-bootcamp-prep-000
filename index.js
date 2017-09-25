@@ -1,7 +1,5 @@
 const app = "I don't do much."
 
-const app = "I don't do much."
-
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
@@ -33,8 +31,25 @@ function destructivelyRemoveFirstKitten(name){
 }
 
 function appendKitten(name) {
-  // append a kitten to kittens array, then return new array.
-  // kittens array should be unchanged
+  // append a kitten to kittens array, then return new array. Kittens array should be unchanged
 
-  return [kittens, ...];
+  return [...kittens, name];
+}
+
+function prependKitten(name) {
+  // prepend an element to the kittens array. Kittens array should be returned unchanged.
+
+  return [name, ...kittens]
+}
+
+function removeLastKitten(name){
+  // remove the last element and return a new array. Kittens array should be unchanged
+
+  return kittens.slice (0, kittens.length - 1);
+}
+
+function removeFirstKitten(name){
+  // remove the first element and return new array. Kittens array should be unchanged
+
+  return kittens.slice(1);
 }
