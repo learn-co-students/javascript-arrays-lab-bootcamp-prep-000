@@ -15,8 +15,8 @@ function destructivelyRemoveFirstKitten(){
   return kittens.shift()
   }
 function appendKitten(index){
-  var newArray = kittens.conca(index)
-  return newArray
+  //var newArray = kittens.conca(index)
+  return [...kittens, index]
 }
 function prependKitten(index){
   var newArray = [index, ...kittens]
