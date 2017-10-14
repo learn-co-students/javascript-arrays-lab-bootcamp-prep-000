@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 //kittens array
-kittens = ['Milo', 'Otis', 'Garfield']
+var kittens = ['Milo', 'Otis', 'Garfield']
 
 //add a kitten to the end of the array destructively
 function destructivelyAppendKitten(name){
@@ -17,15 +17,15 @@ function destructivelyPrependKitten(name){
   return kittens
 }
 
-destructivelyPrependKitten('Chelsey')
+destructivelyPrependKitten('Bob')
 
 //desctructively remove the last kitten from the array
-function desctructivelyRemoveLastKitten(){
+function destructivelyRemoveLastKitten(){
   kittens.pop()
   return kittens
 }
 
-desctructivelyRemoveLastKitten()
+destructivelyRemoveLastKitten()
 
 //destructively remove the first kitten from the array
 function destructivelyRemoveFirstKitten(){
@@ -38,26 +38,26 @@ destructivelyRemoveFirstKitten()
 //append kitten to the back of the array and keep the original array unchanged
 
 function appendKitten(name){
-  kittens = [...kittens, `${name}`]
-  return kittens
+  var kitten = [...kittens, `${name}`]
+  return kitten
 }
 
 //function call to add the kitten to the back of the array
-appendKitten('Lily')
+appendKitten('Broom')
 
 //prepend the kitten to the kittens array
 function prependKitten(name){
-  kittens = [`${name}`, ...kittens]
-  return kittens
+  var kitten = [`${name}`, ...kittens]
+  return kitten
 }
 
 //function call to prepend the kitten to the front of the array
-prependKitten('Fluffy')
+prependKitten('Arnold')
 
 //function to remove the last kitten in the array while keeping the original array
 function removeLastKitten(){
-  kittens.splice(-1,1)
-  return kittens
+  var kitten = kittens.slice(0,2)
+  return kitten
 }
 
 //function call to remove the last kitten in the array
@@ -65,8 +65,8 @@ removeLastKitten()
 
 //function to remove the first kitten from the array
 function removeFirstKitten(){
-  kittens.splice(0,1)
-  return kittens
+  var kitten = kittens.slice(1)
+  return kitten
 }
 //function call to remove the first kitten from the array
 removeFirstKitten()
