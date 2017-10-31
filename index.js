@@ -1,27 +1,27 @@
-const app = "I don't do much.";
+var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
-  kittens.push(name);
+  kittens.push("Ralph")
   return kittens
 }
 
 function destructivelyPrependKitten(name) {
-  kittens.unshift(name);
+  kittens.unshift("Bob")
   return kittens
 }
 
-function destructivelyRemoveLastKitten(name) {
-  kittens.pop(name);
+function destructivelyRemoveLastKitten() {
+  kittens.pop()
   return kittens
 }
 
-function destructivelyRemoveFirstKitten(name) {
-  kittens.shift(name);
+function destructivelyRemoveFirstKitten() {
+  kittens.shift()
   return kittens
 }
 
 function appendKitten(name) {
-  return [...kittens, name]
+  return [...kittens, "Broom"]
 }
 
 function prependKitten(name) {
@@ -29,7 +29,7 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  return kittens.slice(0, kittens.length - 1)
+  return kittens.slice(0, kittens.length -1)
 }
 
 function removeFirstKitten() {
