@@ -31,6 +31,8 @@ function prependKitten(name) {
     return xd
 }
 
+
+
 function removeFirstKitten() {
       var xa = kittens;
         xa.shift();
@@ -39,7 +41,6 @@ function removeFirstKitten() {
 
 function removeLastKitten() {
       var xe = kittens;
-        xe.pop();
-
+      xe.pop();
       return xe;
 }
