@@ -39,7 +39,7 @@ function prependKitten(name) {
 function removeFirstKitten() {
       var xa = kittens;
         xa.shift();
-        return xa
+        return kittens
 }
 
 function removeLastKitten() {
