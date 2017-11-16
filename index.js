@@ -1,5 +1,5 @@
 const app = "I don't do much."
-dogs = ['Dalmatian', 'Poodle', 'Jack Russell'];
+
 function destructivelyPrependKitten(name) {
       kittens.unshift(name)
       return kittens
@@ -35,15 +35,13 @@ function prependKitten(name) {
 
 function removeFirstKitten() {
       var xa = kittens;
-        xa.shift();
-        return kittens;
+    return xa.slice(1);
+
 }
 
 function removeLastKitten() {
-    de = dogs
-    de.pop()
-    return de
-    //  var xe = kittens;
-      //xe.pop();
-    //  return xe;
-}
+    var de = kittens
+    return de.slice(0, de.length - 1)
+
+
+  }
