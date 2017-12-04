@@ -39,5 +39,5 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  retuen kittens.slice(0)
+  return kittens.slice(1)
 }
