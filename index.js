@@ -14,3 +14,20 @@ function destructivelyRemoveLastKitten(arr){
 function destructivelyRemoveFirstKitten(arr){
   kittens.shift()
 }
+function appendKitten(arr){
+  return [...kittens,arr]
+}
+function prependKitten(arr){
+  return [arr,...kittens]
+}
+function removeLastKitten(arr){
+  var kitt=[...kittens]
+  kitt.pop()
+  
+  return kitt
+}
+function removeFirstKitten(name){
+  var kitt=[...kittens]
+  kitt.shift()
+  return kitt
+}
