@@ -17,6 +17,17 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  var kittens = window.kittens.push(name);
-  return kittens;
+  return [...window.kittens, name];
+}
+
+function prependKitten(name){
+  return [name, ...window.kittens];
+}
+
+function removeLastKitten(){
+  return window.kittens.slice(0, (window.kittens.length - 1));
+}
+
+function removeFirstKitten(){
+  return window.kittens.slice(1);
 }
