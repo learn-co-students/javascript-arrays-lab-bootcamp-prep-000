@@ -34,7 +34,7 @@ function destructivelyRemoveFirstKitten( ){
 
 function appendKitten(name){
 	
-	var kittens = ["Milo", "Otis", "Garfield"]
+//	var kittens = ["Milo", "Otis", "Garfield"]
 	var kittenlets = [...kittens, name];
 	return kittenlets;	
 }
@@ -42,7 +42,7 @@ function appendKitten(name){
 
 function prependKitten(name){
 
-	var kittens = ["Milo", "Otis", "Garfield"]
+//	var kittens = ["Milo", "Otis", "Garfield"]
 	var kittenlets = [name, ...kittens];
 	return kittenlets;
 }
@@ -51,7 +51,7 @@ function prependKitten(name){
 
 function removeLastKitten( ){
 
-	var kittens = ["Milo", "Otis", "Garfield"]
+//	var kittens = ["Milo", "Otis", "Garfield"]
 	var kittenlet = kittens.slice(0, kittens.length - 1);
 	return kittenlet;
 }
@@ -59,7 +59,7 @@ function removeLastKitten( ){
 
 function removeFirstKitten( ){
 
-	var kittens = ["Milo", "Otis", "Garfield"];
+	//var kittens = ["Milo", "Otis", "Garfield"];
 	var kittenlets = kittens.slice(1);
 	return kittenlets;
 }
