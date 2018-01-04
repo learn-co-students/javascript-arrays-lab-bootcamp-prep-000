@@ -32,12 +32,12 @@ function prependKitten(name) {
 
 function removeLastKitten() {
   var newArr = [...kittens];
-  newArr.pop(name);
+  newArr.pop();
   return newArr;
 }
 
 function removeFirstKitten() {
   var newArr = [...kittens];
-  newArr.shift(name);
+  newArr.shift();
   return newArr;
 }
