@@ -3,6 +3,7 @@ const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name) {
+  // this and below only want side effects not the return value
   kittens.push(name);
 }
 
@@ -20,6 +21,14 @@ function destructivelyRemoveFirstKitten(name) {
 
 function appendKitten(name) {
   return [...kittens, name]
+}
+
+function prependKitten(name) {
+  return [name, ...kittens]
+}
+
+function removeLastKitten() {
+  return kittens.slice(-1)
 }
 
 
