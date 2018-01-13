@@ -47,7 +47,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-
+//
   describe('prependKitten(name)', function() {
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       expect(prependKitten("Arnold")).toEqual(["Arnold", "Milo", "Otis", "Garfield"])
