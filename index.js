@@ -33,4 +33,5 @@ function removeFirstKitten() {
   return kittens.slice(1)
 }
 
-
+destructivelyAppendKitten(Ralph);
+destructivelyPrependKitten
