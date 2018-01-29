@@ -37,4 +37,6 @@ destructivelyAppendKitten("Ralph");
 destructivelyPrependKitten("Bob");
 destructivelyRemoveLastKitten();
 destructivelyRemoveFirstKitten();
+appendKitten("Broom");
+prependKitten("Arnold");
 
