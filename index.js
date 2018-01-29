@@ -33,5 +33,7 @@ function removeFirstKitten() {
   return kittens.slice(1)
 }
 
-destructivelyAppendKitten(Ralph);
-destructivelyPrependKitten
+destructivelyAppendKitten("Ralph");
+destructivelyPrependKitten("Bob");
+destructivelyRemoveLastKitten();
+
