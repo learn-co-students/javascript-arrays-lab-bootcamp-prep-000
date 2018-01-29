@@ -36,4 +36,5 @@ function removeFirstKitten() {
 destructivelyAppendKitten("Ralph");
 destructivelyPrependKitten("Bob");
 destructivelyRemoveLastKitten();
+destructivelyRemoveFirstKitten();
 
