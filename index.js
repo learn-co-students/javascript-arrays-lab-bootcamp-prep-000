@@ -9,12 +9,12 @@ destructivelyPrependKitten(name) {
     kittens.unshift(name)
 }
 
-destructivelyRemoveLastKitten(name) {
-  kittens.pop(name)
+destructivelyRemoveLastKitten() {
+  kittens.pop()
 }
 
-destructivelyRemoveFirstKitten(name) {
-  kittens.shift(name)
+destructivelyRemoveFirstKitten() {
+  kittens.shift()
 }
 
 appendKitten(name) {
