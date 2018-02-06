@@ -1,5 +1,4 @@
-const app = "I don't do much."
-
+var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
   kittens.push(name);
@@ -11,12 +10,12 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 
-function destructivelyRemoveLastKitten(){
+function destructivelyRemoveLastKitten(name){
   kittens.pop();
   return kittens;
 }
 
-function destructivelyRemoveFirstKitten(){
+function destructivelyRemoveFirstKitten(name){
   kittens.shift();
   return kittens;
 }
@@ -29,12 +28,11 @@ function prependKitten(name){
   return [name, ...kittens];
 }
 
+
 function removeLastKitten(){
-  var lessKittens = kittens.slice(0, kittens.length - 1);
-  return lessKittens;
+  return kittens.slice(0, kittens.length-1)
 }
 
 function removeFirstKitten(){
-  var lessKittens = kittens.slice(1);
-  return lessKittens;
+  return kittens.slice(1);
 }
