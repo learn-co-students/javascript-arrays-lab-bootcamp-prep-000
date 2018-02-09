@@ -38,7 +38,6 @@ function prependKitten() {
 
 function removeLastKitten() {
   var removeKitten = kittens.slice(0, kittens.length -1);
-  console.log("Post slice: " + kittens)
   return removeKitten;
 }
 
