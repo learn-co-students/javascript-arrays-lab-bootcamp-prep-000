@@ -17,12 +17,12 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  var kittensappend = [...kittens, 'Broom'];
+  var kittensappend = [...kittens, name];
   return kittensappend;
 }
 
 function prependKitten(name) {
-  var kittensprepend = ['Arnold', ...kittens];
+  var kittensprepend = [name, ...kittens];
   return kittensprepend;
 }
 
