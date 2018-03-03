@@ -1,1 +1,5 @@
-const app = "I don't do much."
+function Kittens() {
+  let Kittens = ["Milo", "Otis", "Garfield"]
+}
+
+Kittens.pop()
