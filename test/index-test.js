@@ -12,14 +12,13 @@ describe('Arrays', function() {
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
       destructivelyAppendKitten('Ralph')
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
+      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
 
   describe('destructivelyPrependKitten(name)', function() {
     it('prepends a kitten to the beginning of the kittens array', function() {
       destructivelyPrependKitten("Bob")
-
       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
     })
   })
