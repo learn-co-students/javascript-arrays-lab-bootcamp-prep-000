@@ -24,3 +24,4 @@ function removeLastKitten() {
 function removeFirstKitten() {
   return kittens.splice(1);
 }
+//AM I MISSING SOMETHING???  I EVEN DOUBLED CHECKED WITH THE SOLUTIONS PAGE AND IT IS NOT WORKING BUT MY CODE APPEARS TO BE PERFECT!  
