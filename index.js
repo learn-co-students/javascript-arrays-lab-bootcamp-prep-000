@@ -1,5 +1,8 @@
 const app = "I don't do much."
 
+//variable should have been declared with main array
+//var kittens = ["Milo", "Otis", "Garfield"]
+
 function destructivelyAppendKitten(name) {
   kittens.push(name);
 }
@@ -30,16 +33,16 @@ function prependKitten(name) {
   return kittensCute;
 }
 
-function removeLastKitten() {
-  //This is not required
-  var kittensCute = kittens.slice(0, kittens.length - 1);
-  //return kittens.slice(0, kittens.length);
-  return kittensCute;
-}
-
 function removeFirstKitten() {
   //This is not required
   var kittensCute = kittens.slice(1);
   //return kittens.slice(1);
+  return kittensCute;
+}
+
+function removeLastKitten() {
+  //This is not required
+  var kittensCute = kittens.slice(0, kittens.length - 1);
+  //return kittens.slice(0, kittens.length);
   return kittensCute;
 }
