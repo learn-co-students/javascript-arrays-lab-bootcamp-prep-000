@@ -10,11 +10,8 @@ const app = "I don't do much."
 
 
  function destructivelyAppendKitten(name)
- kittens.append(namee)
+ append.kittens(namee)
  return kittens
  end
   
-  function destructivelyPrependKitten(name)
-  kittens.prepend(name)
-  return kittens
-  end
+ 
