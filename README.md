@@ -1,4 +1,4 @@
-JavaScript Arrays Lab
+d itt o reJavaScript Arrays Lab
 ---
 
 ## Objectives
