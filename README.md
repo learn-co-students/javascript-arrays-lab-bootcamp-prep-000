@@ -1,6 +1,6 @@
 JavaScript Arrays Lab
 ---
-
+testing!
 ## Objectives
 
 1. Practice writing arrays
