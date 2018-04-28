@@ -1,7 +1,10 @@
 describe('Arrays', function() {
   beforeEach(function() {
     window.kittens = ['Milo', 'Otis', 'Garfield'];
+      kittens.push("Frank");
   });
+
+
 
   describe('kittens', function() {
     it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
