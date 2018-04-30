@@ -1,4 +1,5 @@
-const app = "I don't do much."
+const app = "I don't do much.";
+
 
 var kittens = ["Milo", "Otis", "Garfield"];
 
@@ -6,6 +7,8 @@ function destructivelyAppendKitten(name) { // passed
   kittens.push('Ralph');
   return kittens;
 }
+
+console.log(destructivelyAppendKitten());
 
 function destructivelyPrependKitten(name) { // passed
   kittens.unshift('Bob');
@@ -15,12 +18,16 @@ function destructivelyPrependKitten(name) { // passed
   //["Bob", "Milo", "Otis", "Garfield"]
 }
 
+console.log(destructivelyPrependKitten());
+
 function destructivelyRemoveLastKitten() { // passed
   kittens.pop();
   return kittens;
   //destructivelyRemoveLastKitten()
   //["Milo", "Otis"]
 }
+
+console.log(destructivelyRemoveLastKitten());
 
 function destructivelyRemoveFirstKitten() { // passed
   kittens.shift();
@@ -29,6 +36,8 @@ function destructivelyRemoveFirstKitten() { // passed
   //["Otis", "Garfield"]
 }
 
+console.log(destructivelyRemoveFirstKitten());
+
 function appendKitten(name) { // passed
   return [...kittens, 'Broom'];
   //appendKitten("Broom")
@@ -36,12 +45,16 @@ function appendKitten(name) { // passed
   //["Milo", "Otis", "Garfield"]
 }
 
+console.log(appendKitten());
+
 function prependKitten(name) { // passed
   return ['Arnold', ...kittens];
   //prependKitten("Arnold")
   //["Arnold", "Milo", "Otis", "Garfield"]
   //["Milo", "Otis", "Garfield"]
 }
+
+console.log(prependKitten());
 
 function removeLastKitten() { // passed
   var newKittens = kittens.slice(0, kittens.length -1);
@@ -51,6 +64,8 @@ function removeLastKitten() { // passed
   //["Milo", "Otis", "Garfield"]
 }
 
+console.log(removeLastKitten());
+
 function removeFirstKitten() { // passed
   var newKittens = kittens.slice(1);
   return newKittens;
@@ -59,3 +74,4 @@ function removeFirstKitten() { // passed
   //["Milo", "Otis", "Garfield"]
 }
 
+console.log(removeFirstKitten());
