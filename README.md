@@ -1,25 +1,7 @@
-JavaScript Arrays Lab
++\1\-+
+workflow\J78;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;l /[ avaScript Arrays Lab
 ---
-
-## Objectives
-
-1. Practice writing arrays
-2. Practice manipulating arrays
-3. Explain how to manipulate arrays in a non-destructive way
-
-## Introduction
-
-Previously, we've learned about how arrays work. We know that `push()` pushes elements onto the ends of arrays, and `pop()` pops them off; similarly, `unshift()` adds elements to the beginnings of arrays, and `shift()` pulls them off.
-
-Now it's time to put what we've learned to the test.
-
-## What's with all this destruction?
-
-You might have noticed that our tests are looking for functions like `destructivelyAppendKitten()` — what's up with that? (Rest assured, no kittens will be harmed.)
-
-We want to distinguish between actions that _mutate_ ("change") their underlying structures (like `pop()`, `push()`, `shift()`, and `unshift()`) and those functions that leave those structures untouched.
-
-In general, it's good practice to avoid mutating a program's state whenever possible. So we want to call out these methods as destructive, since mutating state means we don't always know what we're dealing with. Indeed, these mutations mean that we need to refresh the test environment after every test to make sure that we're not working with mutated data!
+o;g with mutated data!
 
 By contrast, we also have methods like `appendKitten()`, which simply adds a kitten to the end of the `kittens` array and returns the _new_ array, leaving the existing array untouched. This flow is preferable to mutating state because we have complete control over what's going into and coming out of the function.
 
