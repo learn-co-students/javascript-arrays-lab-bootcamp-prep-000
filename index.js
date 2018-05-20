@@ -1,31 +1,31 @@
 const app = "I don't do much."
 
 function destructivelyAppendKitten(name) {
-  window.kittens.push(name)
+  kittens.push(name)
   return window.kittens
 }
 
 function destructivelyPrependKitten(name) {
-  window.kittens.unshift(name)
+  kittens.unshift(name)
   return window.kittens
 }
 
 function destructivelyRemoveLastKitten(name) {
-  window.kittens.pop()
+  kittens.pop()
   return window.kittens
 }
 
 function destructivelyRemoveFirstKitten(name) {
-  window.kittens.shift()
+  kittens.shift()
   return window.kittens
 }
 
 function appendKitten(name) {
-  return [...window.kittens,name]
+  return [...kittens,name]
 }
 
 function prependKitten(name) {
-  return [name,...window.kittens]
+  return [name,...kittens]
 }
 
 function removeLastKitten() {
