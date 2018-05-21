@@ -1,4 +1,5 @@
 const app = "I don't do much."
+<<<<<<< HEAD
 /*function kittens(){
   
   var kittens = ["Milo","Otis","Garfield"]
@@ -38,3 +39,11 @@ const app = "I don't do much."
     return firstkittens;
   }
   
+=======
+function (){
+  var kitten
+}
+function destructivelyAppendKitten(name){
+  
+}
+>>>>>>> b79d965e3ba0a9fff7dd3ea92ba63082b03cb1c1
