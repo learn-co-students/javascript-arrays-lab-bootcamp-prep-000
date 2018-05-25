@@ -22,7 +22,7 @@ We want to distinguish between actions that _mutate_ ("change") their underlying
 In general, it's good practice to avoid mutating a program's state whenever possible. So we want to call out these methods as destructive, since mutating state means we don't always know what we're dealing with. Indeed, these mutations mean that we need to refresh the test environment after every test to make sure that we're not working with mutated data!
 
 By contrast, we also have methods like `appendKitten()`, which simply adds a kitten to the end of the `kittens` array and returns the _new_ array, leaving the existing array untouched. This flow is preferable to mutating state because we have complete control over what's going into and coming out of the function.
-
+  
 Think of it this way: you're making a peanut butter and jelly sandwich. Would you rather work with a sandwich where someone had put an unspecified amount of peanut butter or jelly on the bread before you start making it (or, worse, where someone had taken a bite out of the bread), or would you rather start fresh?
 
 Regardless of your feelings about stale peanut butter and jelly, we're going to state unequivocally that fresh sandwiches are preferable — and fresh functions (ones that don't _mutate_ shared state) are preferable, too.
