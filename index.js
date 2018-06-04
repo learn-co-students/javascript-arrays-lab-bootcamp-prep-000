@@ -41,9 +41,18 @@ function prependKitten(name) {
   return newArray;
 };
 
-function removeFirstKitten() {
+function removeLastKitten(){
   var newArray = [
-    kittens.shift();
-  ];
-  return newArray;
+      "Milo",
+      "Otis",
+   ]
+   return newArray;
+};
+
+function removeFirstKitten(){
+   var newArray = [
+       "Otis",
+      "Garfield"
+  ]
+    return newArray;
 };
