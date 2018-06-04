@@ -5,10 +5,15 @@ var kittens =[
   "Garfield"
 ];
 
+var kittens = ['Milo', 'Otis', 'Garfield'];
 function destructivelyAppendKitten(name) {
-  kittens.shift(name);
-  return kittens;
-};
+  kittens.push(name);
+}
+
+var kittens = ['Milo', 'Otis', 'Garfield'];
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name);
+}
 
 function destructivelyRemoveLastKitten() {
   kittens.pop();
