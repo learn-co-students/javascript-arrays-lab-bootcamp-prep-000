@@ -40,3 +40,17 @@ function prependKitten(name) {
   ];
   return newArray;
 };
+
+removeLastKitten() {
+  var newArray = [
+    kittens.pop();
+  ];
+  return newArray;
+};
+
+removeFirstKitten() {
+  var newArray = [
+    kittens.shift();
+  ];
+  return newArray;
+};
