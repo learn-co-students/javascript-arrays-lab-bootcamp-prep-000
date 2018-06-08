@@ -1,0 +1,12 @@
+// mutating actions on an array :
+pop()
+push()
+shift()
+unshift()
+
+bikin fungsi desctructivelyAppendKitten()
+
+method appendKitten()
+menambahkan 1 kitten ke array kittens
+return array baru, array lama tidak berubah
+
