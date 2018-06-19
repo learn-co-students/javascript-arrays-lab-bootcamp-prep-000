@@ -34,4 +34,3 @@ removeFirstKitten = function(){
   var four=kittens.shift()
   return four
 }
-}
