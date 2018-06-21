@@ -14,16 +14,16 @@ function destructivelyRemoveFirstKitten(k){
   kittens.shift(k)
 }
 function appendKitten(k){
-  var MoreKittens = kittens.push(k)
-  return MoreKittens
+  return [...kittens, k]
 }
 function prependKitten(k){
-  var MoreKittens = kittens.unshift(k)
+  return [k, ...kittens]
+}
+function removeLastKitten(k){
+  var MoreKittens = kittens.slice(0, kittens.length - 1) 
   return MoreKittens
 }
-function RemovelastKitten(k){
-  
-}
-function RemovelastKitten(k){
-  
+function removeFirstKitten(){
+  var MoreKittens = kittens.slice(1, kittens.length) 
+  return MoreKittens
 }
