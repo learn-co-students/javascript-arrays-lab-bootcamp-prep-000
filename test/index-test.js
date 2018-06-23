@@ -60,7 +60,7 @@ describe('Arrays', function() {
     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       expect(removeLastKitten()).toEqual(["Milo", "Otis"])
 
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+      expect(window.kittens).toEqual(["Milo", "Otis" , "Garfield"])
     })
   })
 
