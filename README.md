@@ -17,6 +17,7 @@ Now it's time to put what we've learned to the test.
 
 You might have noticed that our tests are looking for functions like `destructivelyAppendKitten()` — what's up with that? (Rest assured, no kittens will be harmed.)
 
+functions = `destructivelyAppendKitten()`
 We want to distinguish between actions that _mutate_ ("change") their underlying structures (like `pop()`, `push()`, `shift()`, and `unshift()`) and those functions that leave those structures untouched.
 
 In general, it's good practice to avoid mutating a program's state whenever possible. So we want to call out these methods as destructive, since mutating state means we don't always know what we're dealing with. Indeed, these mutations mean that we need to refresh the test environment after every test to make sure that we're not working with mutated data!
