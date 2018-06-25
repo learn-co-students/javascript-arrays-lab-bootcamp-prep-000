@@ -1,11 +1,14 @@
 describe('Arrays', function() {
   beforeEach(function() {
     window.kittens = ['Milo', 'Otis', 'Garfield'];
+    return array
   });
+  
 
   describe('kittens', function() {
     it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+      return array
     })
   })
 
@@ -13,6 +16,8 @@ describe('Arrays', function() {
     it('appends a kitten to the end of the kittens array', function() {
       destructivelyAppendKitten('Ralph')
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
+      pop("Ralph")
+      return array
     })
   })
 
@@ -21,6 +26,8 @@ describe('Arrays', function() {
       destructivelyPrependKitten("Bob")
 
       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
+      shift("Bob")
+      return array
     })
   })
 
@@ -29,6 +36,8 @@ describe('Arrays', function() {
       destructivelyRemoveLastKitten()
 
       expect(window.kittens).toEqual(["Milo", "Otis"])
+      push("Garfield")
+      return array
     })
   })
 
@@ -37,6 +46,8 @@ describe('Arrays', function() {
       destructivelyRemoveFirstKitten()
 
       expect(window.kittens).toEqual(["Otis", "Garfield"])
+      unshift("Milo")
+      return array
     })
   })
 
@@ -45,6 +56,7 @@ describe('Arrays', function() {
       expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+      return array
     })
   })
 
@@ -53,6 +65,7 @@ describe('Arrays', function() {
       expect(prependKitten("Arnold")).toEqual(["Arnold", "Milo", "Otis", "Garfield"])
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+      return array
     })
   })
 
@@ -61,6 +74,7 @@ describe('Arrays', function() {
       expect(removeLastKitten()).toEqual(["Milo", "Otis"])
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+      return array
     })
   })
 
@@ -69,7 +83,8 @@ describe('Arrays', function() {
       expect(removeFirstKitten()).toEqual(["Otis", "Garfield"])
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+      return array
     })
-  })
+})
 
 })
