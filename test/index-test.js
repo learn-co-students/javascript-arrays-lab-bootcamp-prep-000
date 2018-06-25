@@ -1,14 +1,12 @@
 describe('Arrays', function() {
   beforeEach(function() {
     window.kittens = ['Milo', 'Otis', 'Garfield'];
-    return array
   });
   
 
   describe('kittens', function() {
     it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-      return array
     })
   })
 
@@ -16,8 +14,6 @@ describe('Arrays', function() {
     it('appends a kitten to the end of the kittens array', function() {
       destructivelyAppendKitten('Ralph')
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
-      pop("Ralph")
-      return array
     })
   })
 
@@ -74,7 +70,7 @@ describe('Arrays', function() {
       expect(removeLastKitten()).toEqual(["Milo", "Otis"])
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-      return array
+
     })
   })
 
