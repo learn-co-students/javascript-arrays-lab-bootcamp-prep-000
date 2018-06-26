@@ -1,4 +1,4 @@
-describe('Arrays', function() {
+ndescribe('Arrays', function() {
   beforeEach(function() {
     window.kittens = ['Milo', 'Otis', 'Garfield'];
   });
