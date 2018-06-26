@@ -4,4 +4,3 @@ destructivelyAppendKitten()
 {
    kittens.push(app);
 }
-
