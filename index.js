@@ -49,3 +49,4 @@ function removeFirstKitten(name) {
   newArr.shift()
   return newArr
 }
+
