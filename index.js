@@ -7,6 +7,16 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-  var kitten3 = kittens.unshift("Bob");
-  return kitten3;
+  var kittens3 = kittens.unshift("Bob");
+  return kittens3;
+}
+
+function destructivelyRemoveLastKitten(){
+  var kittens4 = kittens.pop();
+  return kittens4;
+}
+
+function destructivelyRemoveFirstKitten(){
+  var kittens5 = kittens.shift();
+  return kittens5;
 }
