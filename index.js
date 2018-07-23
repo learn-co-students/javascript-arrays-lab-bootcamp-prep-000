@@ -22,11 +22,14 @@ function appendKitten(name){
   }
 
 function prependKitten(name){
- var lime = kittens.splice(2)
- return lime
+return [name, ...kittens]
  
 }
 
 function removeLastKitten(){
-  return kittens.pop()
+  return  kittens.slice(0,2)
+}
+
+function removeFirstKitten(){
+  return kittens.slice(1,kittens.length)
 }
