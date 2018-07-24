@@ -1,3 +1,4 @@
+
 describe('Arrays', function() {
   beforeEach(function() {
     window.kittens = ['Milo', 'Otis', 'Garfield'];
