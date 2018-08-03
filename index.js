@@ -17,18 +17,19 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  kittens.splice(3, 1, name)
-  return kittens
+  return kittens.concat([name]);
 }
 
 
 function prependKitten(name){
-  kittens.splice(0, 1, name)
-  return kittens
+ return [name].concat(kittens)
 }
 
 function removeLastKitten(){
-  kittens.slice()
+  const lastIndex = kittens.length - 1
+  return kittens.slice(0, lastIndex)
 }
 
-
+function removeFirstKitten(){
+  return kittens.slice(1)
+}
