@@ -20,3 +20,8 @@ function appendKitten(name) {
   const newArray =[...kittens, "Broom"]
   return newArray
 }
+
+function prependKitten(name) {
+  const newArray = ["mykitten", ...kittens]
+  return newArray
+}
