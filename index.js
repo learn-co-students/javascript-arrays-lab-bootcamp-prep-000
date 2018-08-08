@@ -25,3 +25,8 @@ function prependKitten(name) {
   const newArray = ["Arnold", ...kittens]
   return newArray
 }
+
+function removeLastKitten() {
+  const newArray = kittens.slice(0, array.length - 1)
+  return newArray
+}
