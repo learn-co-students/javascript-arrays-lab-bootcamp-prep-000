@@ -1,5 +1,10 @@
 // Add your functions and code here
 
+/*
+Got 1 passing before coding kittens array and my functions
+ So did not add kittens array assignment
+ */
+
 function destructivelyAppendKitten(name) {
   return kittens.push(name)
 }
