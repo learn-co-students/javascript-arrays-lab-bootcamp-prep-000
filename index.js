@@ -1,7 +1,7 @@
 // Add your functions and code here
 
 function destructivelyAppendKitten(name) {
-  return kittens.push("Ralph")
+  return kittens.push(name)
 }
 
 function destructivelyPrependKitten(name) {
@@ -17,13 +17,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  const newArray =[...kittens, "Broom"]
-  return newArray
+  return [...kittens, name]
 }
 
 function prependKitten(name) {
-  const newArray = ["Arnold", ...kittens]
-  return newArray
+  return [name, ...kittens]
 }
 
 function removeLastKitten() {
@@ -32,6 +30,5 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  const newArray = kittens.slice(1, kittens.length)
-  return newArray
+  return kittens.slice(1)
 }
