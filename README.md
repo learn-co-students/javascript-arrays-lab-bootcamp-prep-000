@@ -1,4 +1,4 @@
-JavaScript Arrays Lab
+liJavaScript Arrays Lab
 ---
 
 ## Objectives
