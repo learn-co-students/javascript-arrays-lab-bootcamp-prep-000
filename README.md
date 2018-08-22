@@ -1,4 +1,4 @@
-JavaScript Arrays Lab
+nshift()JavaScript Arrays Lab
 ---
 
 ## Objectives
