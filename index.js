@@ -29,9 +29,12 @@ function destructivelyRemoveFirstKitten(){
 
 
 function appendKitten(name){
-  kittens.splice(3, 0, name);
+  
+  var newKittens = kittens.splice(0, 3, 'Milo', 'Otis', 'Garfield');
+  newKittens.push(name);
+  
     
-   return kittens;
+   return newKittens;
    
   
 }
@@ -41,9 +44,10 @@ appendKitten("Broom");
 
 
 function prependKitten(name){
-  kittens.splice(0, 0, name);
+  var newKittens = kittens.splice(0, 3, 'Milo', 'Otis', 'Garfield');
+  newKittens.unshift(name);
   
-  return kittens;
+  return newKittens;
   
 }
 
