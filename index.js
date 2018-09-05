@@ -29,19 +29,21 @@ function destructivelyRemoveFirstKitten(){
 
 
 function appendKitten(name){
-  var newKittens = kittens.splice(2, 0, name);
+  kittens.splice(3, 0, name);
     
-   return newKittens;
+   return kittens;
+   
   
 }
 
 appendKitten("Broom");
 
 
+
 function prependKitten(name){
-  var newKittens = kittens.splice(0, 3, name);
+  kittens.splice(0, 0, name);
   
-  return newKittens;
+  return kittens;
   
 }
 
