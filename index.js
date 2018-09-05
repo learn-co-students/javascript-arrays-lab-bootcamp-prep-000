@@ -56,12 +56,19 @@ prependKitten("Arnold");
 
 
 function removeLastKitten(){
-  console.log(kittens.slice(0, 1));
+  var newKitten = kittens.slice(0, 2);
   
+  return newKitten; 
 }
+
+removeLastKitten();
 
 
 function removeFirstKitten(){
-  console.log(kittens.slice(1));
+  var newKittens = kittens.slice(1, 3);
+  
+  return newKittens;
   
 }
+
+removeFirstKitten();
