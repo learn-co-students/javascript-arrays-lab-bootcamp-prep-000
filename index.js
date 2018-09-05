@@ -39,7 +39,7 @@ function removeLastKitten(name){
 }
 
 function removeFirstKitten(name){
-  let arr = name.slice(0);
+  let arr = name.slice(1);
   return arr;
 }
 
