@@ -1,1 +1,2 @@
-// Add your functions and code here
+destructivelyAppendKitten('grace')
+Add your functions and code here
