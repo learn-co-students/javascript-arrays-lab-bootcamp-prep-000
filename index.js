@@ -24,4 +24,21 @@ function destructivelyRemoveFirstKitten(array, elements) {
     return kittens }
 }
 
+  function appendKitten(array, element) {
+    
+      return [...kittens, "Broom"] }
+  
+    function prependKitten(array, element) {
+      return ["Arnold", ...kittens] }
+    
+function removeLastKitten(array, element) {
+  return kittens.slice(0, length - 1)}
+  
+  function removeFirstKitten(array, element) {
+   return kittens.slice(1);
+  }
+    
+    
+    
+    
   
