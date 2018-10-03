@@ -39,7 +39,7 @@ the existing array untouched. This flow is preferable to mutating state because
 we have complete control over what's going into and coming out of the function.
 
 Try to use methods like `slice()`, `concat()`, or `splice()` to return a new
-array when keep the original array intact. 
+array when keeping the original array intact. 
 
 * [concat()][concat]
 
