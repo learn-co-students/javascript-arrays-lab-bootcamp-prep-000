@@ -38,14 +38,12 @@ kitten to the end of the `kittens` array and returns the _new_ array, leaving
 the existing array untouched. This flow is preferable to mutating state because
 we have complete control over what's going into and coming out of the function.
 
-Try to use methods like `slice()`, `concat()`, or `splice()` to return a new
+Try to use methods like `slice()` or `concat()` to return a new
 array when keeping the original array intact. 
 
 * [concat()][concat]
 
 * [slice()][slice]
-
-* [splice()][splice]
 
 Think of it this way: you're making a peanut butter and jelly sandwich. Would
 you rather work with a sandwich where someone had put an unspecified amount of
@@ -95,7 +93,6 @@ really matters — understanding how to manipulate arrays in JavaScript.
 
 [concat]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=control
 [slice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice?v=control
-[splice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice?v=control
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-arrays-lab'>Javascript Arrays Lab</a> on Learn.co and start learning to code for free.</p>
 
