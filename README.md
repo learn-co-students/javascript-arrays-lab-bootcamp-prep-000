@@ -78,7 +78,7 @@ Remember the workflow:
 
 2. Read the errors; vocalize what they're asking you to do.
 
-3. Write code; repeat steps 1 and 2 often until a test passes.
+3. Write code, save, and repeat steps 1 and 2 often until a test passes.
 
 4. Repeat as needed for further tests.
 
