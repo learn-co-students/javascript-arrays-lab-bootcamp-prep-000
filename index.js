@@ -25,3 +25,6 @@ function destructivelyPrependKitten(name) {
   return kittens.unshift(name)
 } //ok
 
+function appendKitten(name) {
+  return kittens.concat(name)
+} //ok
