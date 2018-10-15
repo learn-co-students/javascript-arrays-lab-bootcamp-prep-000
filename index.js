@@ -28,3 +28,8 @@ function destructivelyPrependKitten(name) {
 function appendKitten(name) {
   return kittens.concat(name)
 } //ok
+
+function prependKitten(name) {
+  var newarray = [name];
+  return newarray.concat(kittens)
+} //ok
