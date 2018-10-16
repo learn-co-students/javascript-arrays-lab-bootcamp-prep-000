@@ -29,9 +29,10 @@ function prependKitten(name){
   return array.concat(kittens);
 }
 
+
 function removeLastKitten(){
   var newKittens = kittens;
-  return newKittens.shift();
+  return newKittens.slice(0,2);
 }
 
 function removeFirstKitten(){
