@@ -1,3 +1,8 @@
+/*
+  In our test file, we're going to reset this array to your initial value after every test.
+  Some of our tests manipulate arrays in place, and we want to be sure that we can get back to a blank slate between tests.
+*/
+
 var kittens = ['Milo', 'Otis', 'Garfield']
 function destructivelyAppendKitten(name) {
   kittens.push(name)
