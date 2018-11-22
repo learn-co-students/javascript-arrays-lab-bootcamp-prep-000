@@ -23,13 +23,13 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  return [name].concat(kittens.slice())
+  return [name].concat(kittens.slice());
 }
 
 function removeLastKitten() {
-  return kittens.slice(0,-1)
+  return kittens.slice(0,-1);
 }
 
 function removeFirstKitten() {
-  return kittens.slice(1)
+  return kittens.slice(1);
 }
