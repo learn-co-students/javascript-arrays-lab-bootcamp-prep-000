@@ -21,15 +21,15 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  ["Arnold", kittens];
+  return ["Arnold", ...kittens];
 }
 
 function removeLastKitten() {
-  kittens.slice(2);
+  return kittens.slice(0, 2);
 }
 
 function removeFirstKitten() {
-  kittens.slice(1);
+  return kittens.slice(1);
 }
 
 //define your array here
