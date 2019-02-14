@@ -8,12 +8,12 @@ function destructivelyPrependKitten(n){
   return kittens.unshift(n)
 }
 
-function destructivelyRemoveLastKitten(n){
-  return kittens.pop(n)
+function destructivelyRemoveLastKitten(){
+  return kittens.pop()
 }
 
-function destructivelyRemoveFirstKitten(n) {
-  return kittens.shift(n)
+function destructivelyRemoveFirstKitten() {
+  return kittens.shift()
 }
 
 function appendKitten(n){
@@ -24,11 +24,12 @@ function prependKitten(n){
   return [n, ...kittens]
 }
 
-function removeLastKitten(n){
+function removeLastKitten(){
   return kittens.slice(0, kittens.length-1)
 }
 
-function removeFirstKitten(n){
+function removeFirstKitten(){
   return kittens.slice(1)
 }
+
 // Add your functions and code here
