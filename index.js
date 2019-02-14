@@ -14,5 +14,21 @@ function destructivelyRemoveFirstKitten(name){
   return kittens.shift()
 }
 function appendKitten(name){
- return kittens.slice(0, kittens.length - 1)
+ const moreKittens = kittens.concat(name)
+ return moreKittens
+}
+// function prependKitten(name){
+//   const moreKittens 
+// }
+function removeLastKitten(name){
+  const moreKittens = kittens.slice(0, kittens.length - 1)
+  return moreKittens
+}
+function removeFirstKitten(name){
+  const moreKittens = kittens.slice(1)
+  return moreKittens
+}
+function prependKitten(name) {
+  const moreKittens = [name].concat(kittens)
+  return moreKittens
 }
