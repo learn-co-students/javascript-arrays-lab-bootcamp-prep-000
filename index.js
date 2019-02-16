@@ -15,3 +15,28 @@ function appendKitten(name){
   let newKittens = kittens.concat(name);
   return newKittens;
 }
+
+function destructivelyRemoveFirstKitten(name){
+  kittens.shift(name);
+  return kittens;
+}
+
+function destructivelyRemoveLastKitten(name){
+  kittens.pop(name);
+  return kittens;
+}
+
+function prependKitten(name){
+  let newKittens = [name, ...kittens];
+  return newKittens;
+}
+
+function removeLastKitten(){
+  let newKittens = kittens.slice(0, kittens.length -1)
+  return newKittens
+}
+
+function removeFirstKitten(){
+  let newKittens = kittens.slice(1, kittens.length)
+  return newKittens;
+}
