@@ -9,6 +9,7 @@ function destructivelyAppendKitten(name) {
   return kittens
 }
 
+<<<<<<< HEAD
 function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
