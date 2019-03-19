@@ -2,37 +2,37 @@ var kittens = ["Milo", "Otis", "Garfield"];
 
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  array.push("Garfield");
-  return array;
+  appendKitten.pop();
 }
 
 function destructivelyPrependKitten(name) {
-  array.unshift("Milo");
-  return array;
+  prependKitten.unshift();
 }
 
 function destructivelyRemoveLastKitten(name) {
-  array.shift("Otis");
-  return array;
+  kittens.unshift();
+  return kittens;
 }
 
 function destructivelyRemoveFirstKitten(name) {
-  array.shift("Milo");
-  return array;
+  kittens.shift();
+  return kittens;
 }
 
 function appendKitten(name) {
- return [kittens, ...array]
+  appendKitten()
+  return kittens
 }
 
 function prependKitten(name) {
- return array.index["Milo", "Otis", "Garfield"]
+ prependKitten()
+ return kittens
 }
 
 function removeLastKitten(name) {
-  return array.slice("Garfield") 
+  return kittens.slice() 
 }
 
 function removeFirstKitten(name) {
-   return array.slice("Otis")
+   return kittens.slice()
 }
