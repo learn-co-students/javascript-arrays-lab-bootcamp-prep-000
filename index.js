@@ -28,11 +28,12 @@ function appendKitten(name) {
 
 
 function prependKitten(name) {
- prependKitten(name);
- return kittens;
+  kittens.unshift(name);
+  return kittens
 }
 
 function removeLastKitten(name) {
+  var myarray = [name];
   
 }
 
