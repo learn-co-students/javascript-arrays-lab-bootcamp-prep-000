@@ -2,7 +2,7 @@ var kittens = ["Milo", "Otis", "Garfield"];
 
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  appendKitten.pop();
+  appendKitten();
 }
 
 function destructivelyPrependKitten(name) {
@@ -25,14 +25,14 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
- prependKitten()
- return kittens
+ prependKitten();
+ return kittens;
 }
 
 function removeLastKitten(name) {
-  return kittens.slice() 
+  return kittens.slice();
 }
 
 function removeFirstKitten(name) {
-   return kittens.slice()
+  return kittens.slice(0 - 1);
 }
