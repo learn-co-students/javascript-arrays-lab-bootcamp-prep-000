@@ -28,8 +28,8 @@ function appendKitten(name) {
 
 
 function prependKitten(name) {
-  kittens.unshift(name);
-  return kittens
+  var kittens = [name]
+  return console.log(kittens.pop());
 }
 
 function removeLastKitten(name) {
