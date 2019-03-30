@@ -1,35 +1,45 @@
-var kittens = ["Milo", "Otis", "Garfield"] //define your array here
+const app = "I don't do much."
 
-function destructivelyAppendKitten(name){
-  kittens.push(name)
-return kittens}
-
-function destructivelyPrependKitten(name){
-  kittens.unshift(name)
-  return kittens
+ var kittens = ['Milo', 'Otis', 'Garfield'];
+function destructivelyAppendKitten(name) {
+  kittens.push(name);
 }
 
-function destructivelyRemoveLastKitten(){
-  kittens.pop()
-  return kittens
+ var kittens = ['Milo', 'Otis', 'Garfield'];
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name);
 }
 
-function destructivelyRemoveFirstKitten(){
-  kittens.shift()
-  return kittens
+ var kittens = ['Milo', 'Otis', 'Garfield'];
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
 }
 
-function appendKitten(name){
-
-  return [...kittens, name]
+ var kittens = ['Milo', 'Otis', 'Garfield'];
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
 }
-function prependKitten(name){
-  return [name, ...kittens]
 
+ var kittens = ['Milo', 'Otis', 'Garfield'];
+function appendKitten(name) {
+  var newKittens = [...kittens, name];
+  return newKittens;
+}
+
+ var kittens = ['Milo', 'Otis', 'Garfield'];
+function prependKitten(name) {
+  var newKittens = [name, ...kittens];
+  return newKittens;
+}
+
+ var kittens = ['Milo', 'Otis', 'Garfield'];
 function removeLastKitten() {
-  return kittens.slice(0, kittens.length - 1);
-  }
+  var newKittens = kittens.slice(0, kittens.length - 1);
+  return newKittens;
+}
 
+ var kittens = ['Milo', 'Otis', 'Garfield'];
 function removeFirstKitten() {
-  return kittens.slice(1);
-  }
+  var newKittens = kittens.slice(1);
+  return newKittens;
+}
