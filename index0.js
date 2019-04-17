@@ -9,3 +9,30 @@ function destruvielyAppendKitten(name) {
 function destructivelyPrependKitten(name) {
   return kittens.unshift(name)
 }
+
+//destructivelyRemoveLastKitten() rmeoves the last ktitten from the kittens array
+function destructivelyRemoveLastKitten() {
+  return kittens.pop() 
+}
+
+//destructivelyRemoveFirstKitten() remove the first kitten from the kitten array
+function destructivelyRemoveFirstKitten() {
+  return kittens.shift()
+}
+
+//appendKitten(name) appends a kitten to the kittens array and returns a new array, non-mutated
+function appendKitten(name) {
+  return [...kittens, name]
+}
+
+//prependKitten(name) prepend a kitten to the kittens array and returns a new array, non-mutated
+function prependKitten(name) {
+  return[name, ...kittens]
+}
+
+//removeLastKitten() removes the last kitten inthe kittens array and returns a new array, non-mutated
+function removeLastKitten() {
+  return kittens.slice(0, kittens.length - 1) //
+}
+
+//
