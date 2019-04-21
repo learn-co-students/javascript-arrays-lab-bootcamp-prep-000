@@ -26,16 +26,16 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  var newarr = [name, ...kittens]
-  return newarr
+  var mysterykitten = [name, ...kittens]
+  return mysterykitten
 }
 
 function removeLastKitten(element) {
-  var newarr = kittens.slice(0, kittens.length-1)
-  return newarr
+  var lesskittens = kittens.slice(0, kittens.length-1)
+  return lesskittens
 }
 
 function removeFirstKitten(element) {
-  var newarr = kittens.slice(0)
-  return newarr
+  var morekittens = kittens.slice(0)
+  return morekittens
 }
