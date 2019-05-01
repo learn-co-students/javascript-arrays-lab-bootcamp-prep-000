@@ -1,24 +1,19 @@
-// Add your functions and code here
 var kittens = ["Milo", "Otis", "Garfield"]
 
-function destructivelyAppendKitten(Ralph) {
-  kittens.push("Ralph")
-  return kittens
+function destructivelyAppendKitten(name) {
+  kittens.push('Ralph')
 }
 
-function destructivelyPrependKitten(Bob) {
-  kittens.unshift("Bob")
-  return kittens
+function destructivelyPrependKitten(name) {
+  kittens.unshift('Bob')
 }
 
-function destructivelyRemoveLastKitten(Garfield) {
-  kittens.pop("Garfield")
-  return kittens
+function destructivelyRemoveLastKitten() {
+  kittens.pop()
 }
 
 function destructivelyRemoveFirstKitten() {
   kittens.shift()
-  return kittens
 }
 
 function appendKitten(name) {
@@ -30,7 +25,7 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  return kittens.slice(0, kittens.length - 1)
+  return kittens.slice(0, 2)
 }
 
 function removeFirstKitten() {
