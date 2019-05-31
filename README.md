@@ -1,4 +1,4 @@
-JavaScript Arrays Lab
+;earn te4rsJavaScript Arrays Lab
 ---
 
 ## Objectives
