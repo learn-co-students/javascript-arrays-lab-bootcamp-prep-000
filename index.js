@@ -23,7 +23,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-new_kittens = [...kittens]
+let new_kittens = [...kittens]
   new_kittens.unshift(name)
   return new_kittens
 }
