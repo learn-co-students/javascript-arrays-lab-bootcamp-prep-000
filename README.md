@@ -1,4 +1,4 @@
-JavaScript Arrays Lab
+ khi.JavaScript Arrays Lab
 ---
 
 ## Objectives
