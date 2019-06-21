@@ -1,7 +1,7 @@
 // define array
 var kittens = ["Milo", "Otis", "Garfield"]; 
 
-// Add your functions and code here
+// Functions
 
 function destructivelyAppendKitten(kittenElement) {
   kittens.push(kittenElement);
