@@ -52,10 +52,10 @@ destructivelyPrependKitten("Bob") // ["Bob", "Milo", "Otis", "Garfield"]
 
 function destructivelyRemoveLastKitten() {
   kittens.pop(); // [ 'Bob', 'Milo', 'Otis' ]
-  kittens.shift(); // [ 'Milo', 'Otis' ]
+  kittens.shift(); // ['Milo', 'Otis', 'Garfield']
   console.log(kittens);
 }
-destructivelyRemoveLastKitten() // ["Milo", "Otis"]
+destructivelyRemoveLastKitten() // ['Milo', 'Otis', 'Garfield']
 
 function destructivelyRemoveFirstKitten() {
   kittens.shift();
