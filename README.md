@@ -39,7 +39,7 @@ the existing array untouched. This flow is preferable to mutating state because
 we have complete control over what's going into and coming out of the function.
 
 Try to use methods like `slice()` or `concat()` to return a new
-array when keeping the original array intact. 
+array when keeping the original array intact.
 
 * [concat()][concat]
 
@@ -95,4 +95,3 @@ really matters — understanding how to manipulate arrays in JavaScript.
 [slice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice?v=control
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-arrays-lab'>Javascript Arrays Lab</a> on Learn.co and start learning to code for free.</p>
-
