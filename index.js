@@ -38,7 +38,7 @@ function removeFirstKitten() {
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  kittens.push(name)
+  kittens.push(name) // ["Milo", "Otis", "Garfield", "Ralph"]
   console.log(kittens)
 }
 destructivelyAppendKitten('Ralph') // ["Milo", "Otis", "Garfield", "Ralph"]
