@@ -3,13 +3,11 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 // Add your functions and code here
 
 function destructivelyAppendKitten(name){
- kittens.push('Ralph')
- return kittens
+ return kittens.push('Ralph')
 }
 
 function destructivelyPrependKitten(name){
-  kittens.unshift('Bob')
-  return kittens
+  return kittens.unshift('Bob')
 }
 
 function destructivelyRemoveLastKitten(){
