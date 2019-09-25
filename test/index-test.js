@@ -2,11 +2,11 @@ describe('Arrays', function() {
   describe('kittens', function() {
     it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
+    })})
+https://learn.co/tracks/bootcamp-prep/javascript-fundamentals/data-structures/javascript-arrays-lab#})
 
-  describe('destructivelyAppendKitten(name)', function() {
-    it('appends a kitten to the end of the kittens array', function() {
+  describe('destructi', function() {
+    it('appevelyAppendKitten(name)nds a kitten to the end of the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyAppendKitten('Ralph')
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
@@ -73,6 +73,5 @@ describe('Arrays', function() {
       expect(removeFirstKitten()).toEqual(["Otis", "Garfield"])
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
+    })})
 })
