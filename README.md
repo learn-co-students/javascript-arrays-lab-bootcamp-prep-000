@@ -1,4 +1,4 @@
-JavaScript Arrays Lab
+lewaJavaScript Arrays Lab
 ---
 
 ## Objectives
