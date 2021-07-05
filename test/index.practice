@@ -1,0 +1,19 @@
+var kitten = ['Milo', 'Otis, 'Garfield'];
+
+kitten.push('Ralph');
+
+kitten.unshift('Bob');
+
+kitten.pop();
+
+kitten.shift();
+
+appendKitten('Broom');
+
+prependKitten('Arnold');
+
+kitten.slice(0, kitten.length -1);
+
+kitten.length(-2);
+
+So ya, I understand how to do work with Arrays but I am much more confused at how to operate this testing system:).  So hopefully this "off the cuff" practice is ok:)
