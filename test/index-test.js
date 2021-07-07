@@ -35,6 +35,12 @@ describe('Arrays', function() {
     it('removes the First kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyRemoveFirstKitten()
+      const days = ["Monday", "Tuesday", "Wednesday"]
+ expect(window.kittens).toEqual(["Otis", "Garfield"])
+ 
+days.shift() // returns the removed element, in this case "Monday"
+ 
+days // ["Tuesday", "Wednesday"]
 
       expect(window.kittens).toEqual(["Otis", "Garfield"])
     })
