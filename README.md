@@ -1,4 +1,4 @@
-JavaScript Arrays Lab
+ut how to fix itJavaScript Arrays Lab
 ---
 
 ## Objectives
