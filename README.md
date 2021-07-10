@@ -7,7 +7,7 @@ JavaScript Arrays Lab
 2. Practice manipulating arrays
 3. Explain how to manipulate arrays in a non-destructive way
 
-## Introduction
+## Introducleation
 
 Previously, we've learned about how arrays work. We know that `push()` pushes
 elements onto the ends of arrays, and `pop()` pops them off; similarly,
